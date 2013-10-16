@@ -15,7 +15,7 @@ a {	color: black;	text-decoration: none;}
 .list{float:left;width:74.9%;min-width:599px;padding-right:5px;padding-top:10px;height:100%;}
 .links{float:right;width:24.9%;min-width:199px;padding:5px;border-radius: 3px;background-color:rgba(0,255,0,0.2);overflow-x:hidden;height:100%;}
 .error{margin:0;padding:10px;background-color:red;color:pink;text-shadow:0 1px 1px maroon;}
-fieldset{padding:2px;border-radius: 3px;border:0px dashed green;height:25px;overflow:hidden;}
+fieldset{padding:2px;border-radius: 3px;border:0px dashed green;height:25px;overflow:hidden;display:block;overflow: -moz-hidden-unscrollable;}
 .list h1{font-size:14px;height:18px;margin:0;padding:0;cursor:pointer;margin-bottom:5px;border-radius: 3px;overflow:hidden;}
 .links h1{font-size:14px;height:18px;margin:0;padding:0;overflow:hidden;text-align:center;text-shadow:0 1px 1px darkgreen;}
 .list h1:hover{background-color:rgba(0,255,0,0.2);}
