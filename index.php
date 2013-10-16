@@ -101,7 +101,7 @@
 	<ul class="respawns_list">
 	<?php
 	 foreach ($links as $link){
-	 	echo '<li><a href="'.$link.'">'.returndomain($link).'</a></li>';
+	 	echo '<li><a href="'.str_replace('?api','',$link).'">'.returndomain($link).'</a></li>';
 	 }
 	?>
 	</ul>
